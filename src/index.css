@@ -7,6 +7,6 @@
 }
 
 body {
-  background: linear-gradient(to right, rgb(34, 108, 133), rgb(6, 127, 144));
+  background: linear-gradient(45deg, rgb(46, 150, 185) 50%, rgb(1, 99, 255) 50%);
   font-family: 'Poppins', sans-serif;
 }

@@ -3,6 +3,7 @@
     height: 100vh;
     color: white;
     padding: 1rem;
+    margin: auto;
 }
 
 /* Search Bar Style Starts */
@@ -70,11 +71,17 @@
 }
 
 .temperature {
+    width: 70%;
     font-size: 4rem;
 }
 
 .temp-icon {
-    font-size: 3.5rem;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.temp-icon img {
+    width: 100%;
 }
 
 .weather-description {
@@ -85,55 +92,8 @@
 }
 
 .min-max-temp {
-    width: 80%;
+    width: 100%;
     text-align: center;
 }
 
 /* Current Weather Style Ends */
-
-/* Sun Deatails Starts */
-.sun-set-rise {
-    width: 100%;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-    margin-top: 1rem;
-    display: flex;
-}
-
-.sunrise {
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 25px;
-    width: 40%;
-    margin: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-}
-
-.sunrise>span {
-    font-size: 2.5rem;
-}
-
-/* Sun Deatails Ends */
-
-/* Other Details Starts */
-.other-details {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.2);
-    margin-top: 1rem;
-    border-radius: 25px;
-    padding: 1rem;
-}
-
-.other-details>span {
-    padding: .5rem;
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 25px;
-    margin: 0.5rem;
-}
-
-/* Other Details Ends */
